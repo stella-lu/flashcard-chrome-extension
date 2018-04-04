@@ -4,6 +4,6 @@ This is a group side project between three students at U.C. Berkeley. We are cre
 
 ## Contributors
 
-* Carson Trinh (https://github.com/carsontrinh)
-* Stella Lu (https://github.com/stella-lu)
-* Dmitry Khelemendyk (https://github.com/dmitrokh)
+* [Carson Trinh] (https://github.com/carsontrinh)
+* [Stella Lu] (https://github.com/stella-lu)
+* [Dmitry Khelemendyk] (https://github.com/dmitrokh)
