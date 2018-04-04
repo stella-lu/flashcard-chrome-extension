@@ -1,0 +1,10 @@
+{
+  "name": "Flashcards",
+  "version": "1.0",
+  "description": "Flashcard chrome extension",
+  "permissions": ["activeTab"],
+  "page_action": {
+    "default_popup": "popup.html",
+  },
+  "manifest_version": 2
+}
