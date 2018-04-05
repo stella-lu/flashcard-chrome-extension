@@ -2,9 +2,17 @@
   "name": "Flashcards",
   "version": "1.0",
   "description": "Flashcard chrome extension",
-  "permissions": ["activeTab"],
+  "manifest_version": 2,
   "page_action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup.html"
   },
-  "manifest_version": 2
+  "background": {
+  	"scripts": ["eventPage.js"],
+  	"persistent": false
+  },
+
+  "permissions": [
+  	"activeTab", 
+  	"contextMenus"
+  ]
 }
