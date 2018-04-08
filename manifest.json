@@ -2,12 +2,15 @@
   "name": "Flashcards",
   "version": "1.0",
   "description": "Flashcard chrome extension",
+  
+  // the version of the manifest specification their package targets
+  // this is always 2; manifest_version 1 is deprecated
   "manifest_version": 2,
   "page_action": {
     "default_popup": "popup.html"
   },
   "background": {
-  	"scripts": ["eventPage.js"],
+  	"scripts": ["eventPage.js, background.js"],
   	"persistent": false
   },
 
