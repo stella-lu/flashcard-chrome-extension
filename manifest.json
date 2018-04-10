@@ -1,18 +1,17 @@
 {
-  "name": "Flashcards",
-  "version": "1.0",
-  "description": "Flashcard chrome extension",
-  "manifest_version": 2,
-  "page_action": {
-    "default_popup": "popup.html"
-  },
-  "background": {
-  	"scripts": ["eventPage.js"],
-  	"persistent": false
-  },
-
-  "permissions": [
-  	"activeTab", 
-  	"contextMenus"
-  ]
+    "name": "Flashcards",
+    "version": "1.0",
+    "description": "Flashcard chrome extension",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab", 
+        "contextMenus"
+    ]
 }
