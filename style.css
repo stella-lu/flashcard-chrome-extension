@@ -1,5 +1,12 @@
-body {
-	height: 350px;
-	width: 300px;
+img {
+ width: 10%;
+ padding-left: 11%;
+ padding-right: 11%;
+ padding-top: 8px;
 }
 
+#container {
+ margin: 0 auto;
+ width: 300px;
+ height: 350px;
+}

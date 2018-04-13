@@ -7,11 +7,12 @@
         "default_popup": "popup.html"
     },
     "background": {
-        "scripts": ["eventPage.js"],
+        "scripts": ["background.js"],
         "persistent": false
     },
     "permissions": [
         "activeTab", 
-        "contextMenus"
+        "contextMenus",
+        "notifications"
     ]
 }
