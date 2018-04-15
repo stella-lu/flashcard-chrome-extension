@@ -5,17 +5,15 @@ var contextMenuItem = {
     
 }
 chrome.contextMenus.create(contextMenuItem)
-
-
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
-    alert("hallo");
+    getSelectionText()
 });
 
+var button = document.getElementById("button");
+button.onclick = function() {
+	alert("you clicked a button!")
+}
 
-/*
-chrome.contextMenus.create({
-	title: 'Add "%s" to Flashcards',
-	contexts: ['selection'],
-	onclick: alert("hallo"),
-});
-*/
+function shuffle() {
+    alert("shuffling!")
+};
